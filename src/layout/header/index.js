@@ -19,7 +19,7 @@ const FilterMenu = ({children}) =>{
     }
     
     return(
-            <AppBar position="sticky" id="header-app" sx={{backdropFilter:"blur(10px)",}}>
+            <AppBar position="sticky" id="header-app" sx={{backdropFilter:"blur(200px)",}}>
                 <Container maxWidth="xl">
                     <Toolbar disableGutters >
                         <Box justifyContent="end" sx={{flexGrow:1, display:{xs:'flex',md:'none'}}}>

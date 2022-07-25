@@ -1,4 +1,3 @@
-import { Opacity } from "@mui/icons-material";
 import { Grid, MenuItem, Select, TextField, ToggleButton, InputLabel, FormControl, ToggleButtonGroup} from "@mui/material";
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
@@ -43,6 +42,7 @@ const Filter = ({data,btn,setBtn,name,changeName,inputValue,setInputValue}) =>{
                     placeholder="Buscar pelo nome..."
                     id="filterText"
                     sx={{
+                        "& #filterText":{color:"#fff"},
                         "& .MuiOutlinedInput-notchedOutline":{border:"1px solid #fff"},
                         "& .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline":{border:"1px solid #fff"},
                         "& #filterText::placeholder":{fontWeight:800,color:"#ffffff",}

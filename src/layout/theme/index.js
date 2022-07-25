@@ -7,7 +7,7 @@ let MyTheme = createTheme({
         secondary:{main:"#000000"},
         text:{main:"#414141"},
         background:{
-            paper:"#ffffff30",
+            paper:"#ffffff60",
         },
     },
     typography:{
